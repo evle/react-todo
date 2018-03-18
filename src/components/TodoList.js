@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './TodoList.css'
+import FlipMove from 'react-flip-move';
 
 export default class TodoList extends Component { 
 
@@ -25,7 +26,9 @@ export default class TodoList extends Component {
     
         return(
             <ul className="todo-list">
+            <FlipMove duration={250} easing="ease-out">
                 {listItems}
+            </FlipMove>
             </ul>
         )
     }
