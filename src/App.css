@@ -1,0 +1,42 @@
+.todoList{
+  border:1px solid black;
+  width: 18rem;
+  height:30rem;  
+  background: white;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.header{
+  border:1px solid purple;
+  height: 4.5rem;
+}
+ form{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid pink;
+  height:25.5rem;
+  align-content: space-between
+  /* align-items: center; */ 
+ }
+.btn{
+   border-radius: 50%;
+  display:block;
+  height: 4rem;
+  width: 4rem;
+  padding: 10px 16px; 
+  font-size: 28px;
+  color: #27ae60;
+  background: #2ecc71;
+  align-self: center;
+  /* justify-self: flex-end; */
+}
+
+.input-area{
+border: 1px solid red;
+}
+
+.todo-list{
+  border: 1px solid blue;
+  height: 18rem;
+}
